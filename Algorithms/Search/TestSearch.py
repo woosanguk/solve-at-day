@@ -1,7 +1,8 @@
 import unittest
 
-from Algorithms.Search.HackerLandRadioTransmitters import solve as transmitters_solve
-from Algorithms.Search.IntroToTutorialChallenges import solve as ittc_solve
+from Algorithms.Search.GridlandMetro import gridland_metro_solve
+from Algorithms.Search.HackerLandRadioTransmitters import transmitters_solve
+from Algorithms.Search.IntroToTutorialChallenges import ittc_solve
 
 
 class SearchTestCase(unittest.TestCase):
@@ -12,6 +13,9 @@ class SearchTestCase(unittest.TestCase):
 
     def test_intro_to_tutorial_challenges(self):
         self.assertEqual(1, ittc_solve(4, 6, [1, 4, 5, 7, 9, 12]))
+
+    def test_gridland_metro(self):
+        self.assertEqual(9, gridland_metro_solve(4, 4, 3, [[2, 2, 3], [3, 1, 4], [4, 4, 4]]))
 
 
 if __name__ == '__main__':

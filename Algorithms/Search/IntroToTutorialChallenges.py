@@ -8,9 +8,9 @@
 """
 
 
-def solve(v, n, arr):
+def ittc_solve(v, n, arr):
     return arr.index(v)
 
 
 if __name__ == "__main__":
-    print(solve(4, 6, [1, 4, 5, 7, 9, 12]))
+    print(ittc_solve(4, 6, [1, 4, 5, 7, 9, 12]))

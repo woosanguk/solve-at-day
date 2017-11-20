@@ -17,5 +17,6 @@ def solve(n, arr):
         if i > 0:
             print_arr(arr)
 
+
 if __name__ == "__main__":
     solve(6, [1, 4, 3, 5, 6, 2])

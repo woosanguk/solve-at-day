@@ -3,7 +3,7 @@
 """
 
 
-def solve(n, k, x):
+def transmitters_solve(n, k, x):
     x.sort()
     index = 0
     transmitter = 0
@@ -35,5 +35,5 @@ def solve(n, k, x):
 
 if __name__ == "__main__":
     print("Hacker Land Radio Transmitters")
-    print("result =", solve(5, 1, [1, 2, 3, 4, 5]))
-    print("result =", solve(8, 2, [7, 2, 4, 6, 5, 9, 12, 11]))
+    print("result =", transmitters_solve(5, 1, [1, 2, 3, 4, 5]))
+    print("result =", transmitters_solve(8, 2, [7, 2, 4, 6, 5, 9, 12, 11]))
