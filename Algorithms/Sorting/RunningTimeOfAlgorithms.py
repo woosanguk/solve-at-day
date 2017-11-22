@@ -13,8 +13,8 @@ def running_time_of_algorithms_solve(n, arr):
             j -= 1
             count += 1
         arr[j] = temp
-    print(count)
+    return count
 
 
 if __name__ == "__main__":
-    running_time_of_algorithms_solve(5, [2, 1, 3, 1, 2])
+    print(running_time_of_algorithms_solve(5, [2, 1, 3, 1, 2]))
